@@ -1,0 +1,711 @@
+
+@font-face {
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/Larsseit.woff2') format('woff2'), 
+         url('../font/Larsseit.woff') format('woff'), 
+         url('../font/Larsseit.ttf') format('truetype');
+  } 
+
+  html {
+    box-sizing: border-box;
+}
+ *, *::before, ::after {
+    box-sizing: inherit;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+  }
+  body {
+    font-family: 'Larsseit', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #22356F;
+    margin: 0;
+    padding: 0;
+    }
+    .info {
+      background-color: #cfd0dc;
+      height: 629px;
+      margin-bottom: 226px;
+    }
+   .info img {
+    margin-top: 39px;
+    margin-left: 50px;
+    margin-bottom: 118px;
+   }
+   .container-logo {
+    display: flex;
+   }
+   .made {
+    
+  
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: -0.006em;
+    color: #A259FF;
+    padding-left: 233px;
+    padding-right: 119px;
+   } 
+   .info-wrapper {
+    
+   }
+   .title-info {
+    padding: 0;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: -0.006em;
+    color: #292929;
+    margin-bottom: 20px;
+
+   }
+   .ui {
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #4F4F4F;
+    margin-bottom: 67px;
+   }
+   .links {
+    width: 698px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 123px;
+
+   }
+   .links li a {
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+    text-decoration-line: underline;
+    color: #1ABCFE;
+   }
+   .support {
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.006em;
+    color: #696969;
+    margin-bottom: 338px;
+   }
+   
+   .hero-wrapper {
+    width: 1261px;
+    margin-left: 179px;
+    background-color: #dfe9a8;
+
+   }
+   .hero {
+    width: 1440px;
+    height: 840px;
+    background: #F4F9E2;
+    position: relative;
+   }
+   
+   .header-hero {
+    padding-top: 27px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+
+   }
+   .nav-list {
+    width: 233px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+   }
+   .nav-list li a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #22356F;
+   }
+   .thrivetalk {
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #62D0DF;
+   }
+   .home-item {
+    position: relative;
+   }
+   .home-item::after {
+    position: absolute;
+    content: url(../img/line.png);
+    top: 15px;
+    left: -10px;
+   }
+   
+   .contact {
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: url(../img/Rectangle.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
+   }
+   
+   .hero-text {
+    width: 484px;
+    padding-left: 179px;
+   }
+   .talk {
+    width: 484px;
+    height: 64px;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #62D0DF;
+   }
+   .helping {
+    width: 484px;
+    height: 167px;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    color: #22356F;
+    margin-bottom: 19px;
+   }
+   .talent {
+    width: 469px;
+    height: 161px;
+    font-size: 24px;
+    line-height: 42px;
+    color: #22356F;
+    margin-bottom: 63px;
+   }
+   .who-what {
+    list-style-type: none;
+    display: flex;
+   }
+   .who-link  {
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    background: url(../img/yellow.png);
+    margin-right: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .what-link {
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #FAB63E;
+    display: flex;
+    align-items: center; 
+   }
+   .why-thrive {
+    width: 1437px;
+    height: 607px;
+    background-color: #62D0DF;
+    display: flex;
+    justify-content: space-between;
+    
+   }
+   .why-thrive-wrapper {
+    margin-left:  179px;
+   }
+   
+   .why-thrive-title {
+    margin-top: 151px;
+    margin-bottom: 75px;
+    font-size: 36px;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+   }
+   .therapy {
+    width: 555px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+   }
+   .span {
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+   }
+   
+   .about-wrapper {
+    display: flex;
+    padding-top: 150px;
+    padding-left: 106px;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+   }
+   .wishes {
+    width: 592px;
+    margin-left: 225px;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    color: #22356F;
+    margin-bottom: 76px;
+   }
+   .can {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+    margin: 0 auto 24px;
+   }
+   .help-list {
+    display: flex;
+   }
+   .square-1 {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    background-color: #FFE2DE;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    padding-top: 95px;
+    padding-left: 78px;
+   }
+   .square-1::before {
+    content: url(../img/Ellipse.svg);
+    margin-right: 15px;
+    position: absolute;
+    top: 85px;
+    left: 54px;
+   }
+   .square-1::after {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 2px;
+    top: 72px;
+    left: 52px;
+    background-color: #FFFFFF;
+   }
+   .square-2 {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    background-color: #C4E769;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    padding-top: 95px;
+    padding-left: 78px;
+   }
+   .square-2::before {
+    content: url(../img/Ellipse.svg);
+    margin-right: 15px;
+    position: absolute;
+    top: 85px;
+    left: 54px;
+   }
+   .square-2::after {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 2px;
+    top: 72px;
+    left: 52px;
+    background-color: #FFFFFF;
+   }
+   .square-3 {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    background-color: #62D0DF;;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    padding-top: 95px;
+    padding-left: 78px;
+   }
+   .square-3::before {
+    content: url(../img/Ellipse.svg);
+    margin-right: 15px;
+    position: absolute;
+    top: 85px;
+    left: 54px;
+   }
+   .square-3::after {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 2px;
+    top: 72px;
+    left: 52px;
+    background-color: #FFFFFF;
+   }
+   .square-4 {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    background-color: #0052C1;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    padding-top: 95px;
+    padding-left: 78px;
+    margin-bottom: 120px;
+   }
+   .square-4::before {
+    content: url(../img/Ellipse.svg);
+    margin-right: 15px;
+    position: absolute;
+    top: 85px;
+    left: 54px;
+   }
+   .square-4::after {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 2px;
+    top: 72px;
+    left: 52px;
+    background-color: #FFFFFF;
+   }
+   .aims-list {
+    display:flex;
+    flex-wrap: wrap;
+   }
+   .physical-health {
+    position: relative;
+    width: 480px;
+    height: 480px;
+    background-color: #22356F;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    padding-top: 95px;
+    padding-left: 78px;  
+   }
+   .physical-health::before {
+    content: url(../img/Ellipse.svg);
+    margin-right: 15px;
+    position: absolute;
+    top: 85px;
+    left: 54px;
+   }
+   .physical-health::after {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 2px;
+    top: 72px;
+    left: 52px;
+    background-color: #FFFFFF;
+   }
+   .mental-health {
+    position: relative;
+    width: 480px;
+    height: 480px;
+    background-color: #0052C1;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    padding-top: 95px;
+    padding-left: 78px;  
+   }
+   .mental-health::before {
+    content: url(../img/Ellipse.svg);
+    margin-right: 15px;
+    position: absolute;
+    top: 85px;
+    left: 54px;
+   }
+   .mental-health::after {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 2px;
+    top: 72px;
+    left: 52px;
+    background-color: #FFFFFF;
+   }
+   .nutrotion {
+    position: relative;
+    width: 480px;
+    height: 480px;
+    background-image: url(../img/strawberries.jpg);
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    padding-top: 95px;
+    padding-left: 78px;  
+   }
+   .nutrotion::before {
+    content: url(../img/Ellipse.svg);
+    margin-right: 15px;
+    position: absolute;
+    top: 85px;
+    left: 54px;
+   }
+   .nutrotion::after {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 2px;
+    top: 72px;
+    left: 52px;
+    background-color: #FFFFFF;
+   }
+   .gymnastics {
+    position: relative;
+    width: 480px;
+    height: 480px;
+    background-color: #62D0DF;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    padding-top: 95px;
+    padding-left: 78px;  
+   }
+   .gymnastics::before {
+    content: url(../img/Ellipse.svg);
+    margin-right: 15px;
+    position: absolute;
+    top: 85px;
+    left: 54px;
+   }
+   .gymnastics::after {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 2px;
+    top: 72px;
+    left: 52px;
+    background-color: #FFFFFF;
+   }
+   .crossfit {
+    position: relative;
+    width: 480px;
+    height: 480px;
+    background-color: #DEE1FF;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    padding-top: 95px;
+    padding-left: 78px;  
+   }
+   .crossfit::before {
+    content: url(../img/Ellipse.svg);
+    margin-right: 15px;
+    position: absolute;
+    top: 85px;
+    left: 54px;
+   }
+   .crossfit::after {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 2px;
+    top: 72px;
+    left: 52px;
+    background-color: #FFFFFF;
+   }
+   .aerobics {
+    position: relative;
+    width: 480px;
+    height: 480px;
+    background-color: #8F00FF;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    padding-top: 95px;
+    padding-left: 78px; 
+    margin-bottom: 22px; 
+   }
+   .aerobics::before {
+    content: url(../img/Ellipse.svg);
+    margin-right: 15px;
+    position: absolute;
+    top: 85px;
+    left: 54px;
+   }
+   .aerobics::after {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 2px;
+    top: 72px;
+    left: 52px;
+    background-color: #FFFFFF;
+   }
+   .plan {
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .nutritional-plan,.weight,.peace,.training,.work,.cardio {
+    width: 480px;
+    height: 240px;
+   }
+   .plan-title,.weight-title,.peace-title,.training-title,.work-title,.cardio-title {
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    color: #22356F;
+    padding-top: 55px;
+    padding-left: 105px;
+   }
+   .plan-item,.weight-item,.peace-item,.training-item,.work-item,.cardio-item {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+    padding-top: 28px;
+    padding-left: 105px;
+    margin-bottom: 77px;
+   }
+   .adults {
+    display: flex;
+   }
+   .adults-text {
+    width: 960px;
+   }
+   .know {
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    padding-top: 103px;
+    padding-left: 106px;
+    margin-bottom: 225px;
+   }
+   .mmd {
+    width: 676px;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    padding-left: 106px;
+    margin-bottom: 152px;
+   }
+   .get-help {
+    padding-left: 106px;
+    margin-bottom: 42px;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FAB63E;
+   }
+   .contact-us {
+    display: flex;
+   }
+   .contact-text {
+    width: 960px;
+    height: 800px;
+    background-color: #22356F;
+   }
+   .contacts {
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-left: 180px;
+    padding-bottom: 220px;
+   }
+   .ready {
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    padding-left: 180px;
+    padding-bottom: 75px;
+   }
+   .online {
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    width: 700px;
+    padding-left: 180px;
+    padding-bottom: 60px;
+   }
+   .get-help-contact {
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #62D0DF;
+    padding-left: 180px;
+   }
+   .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .info-footer,.health,.hours {
+    width: 240px;
+   }
+   .footer-title {
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    margin-bottom: 56px;
+   }
+   .copyright {
+    height: 80px;
+    background-color: #62D0DF;
+    display: flex;
+    align-items: center;
+   }
+   .copy-logo {
+    padding-left: 179px;
+    padding-right: 6px;
+   }
+
+   .copy-logo,.copy-text {
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+   }
+    
+
+   
+
+
+   
+
+   
+   
+  
+   
+   
+   
